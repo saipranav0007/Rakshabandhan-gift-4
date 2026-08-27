@@ -12,7 +12,6 @@ import { StoriesVisualizer } from './components/sections/05_StoriesVisualizer';
 import { GhostGame } from './components/sections/06_GhostGame';
 import { FightMachine } from './components/sections/07_FightMachine';
 import { PigRoast } from './components/sections/08_PigRoast';
-import { TeluguRoast } from './components/sections/09_TeluguRoast';
 import { RakshasiDiagnosis } from './components/sections/10_RakshasiDiagnosis';
 import { SmallMemories } from './components/sections/11_SmallMemories';
 import { FoodMemory } from './components/sections/12_FoodMemory';
@@ -37,7 +36,6 @@ const SECTION_CONFIGS: { id: string; title: string; mood: BgmMood }[] = [
   { id: 'ghost-game', title: 'The Ghost Game', mood: 'ghost' },
   { id: 'fight-machine', title: 'The Fight Machine', mood: 'fights' },
   { id: 'pig-roast', title: 'The Pig Roast', mood: 'roast' },
-  { id: 'telugu-roast', title: 'Telugu Family Roast', mood: 'roast' },
   { id: 'diagnosis', title: 'Rakshasi Special Care', mood: 'roast' },
   { id: 'small-memories', title: 'Small Moments', mood: 'appreciation' },
   { id: 'food-memory', title: 'The Food Memory', mood: 'food' },
@@ -160,63 +158,58 @@ export const App: React.FC = () => {
           <PigRoast />
         </div>
 
-        {/* Section 08: Telugu Roast */}
+        {/* Section 08: Rakshasi Diagnosis */}
         <div ref={(el) => { sectionRefs.current[8] = el; }} data-section-index={8}>
-          <TeluguRoast />
-        </div>
-
-        {/* Section 09: Rakshasi Diagnosis */}
-        <div ref={(el) => { sectionRefs.current[9] = el; }} data-section-index={9}>
           <RakshasiDiagnosis />
         </div>
 
-        {/* Section 10: Small Memories */}
-        <div ref={(el) => { sectionRefs.current[10] = el; }} data-section-index={10}>
+        {/* Section 09: Small Memories */}
+        <div ref={(el) => { sectionRefs.current[9] = el; }} data-section-index={9}>
           <SmallMemories />
         </div>
 
-        {/* Section 11: The Food Memory */}
-        <div ref={(el) => { sectionRefs.current[11] = el; }} data-section-index={11}>
+        {/* Section 10: The Food Memory */}
+        <div ref={(el) => { sectionRefs.current[10] = el; }} data-section-index={10}>
           <FoodMemory />
         </div>
 
-        {/* Section 12: What You Mean to Me */}
-        <div ref={(el) => { sectionRefs.current[12] = el; }} data-section-index={12}>
+        {/* Section 11: What You Mean to Me */}
+        <div ref={(el) => { sectionRefs.current[11] = el; }} data-section-index={11}>
           <WhatYouMean />
         </div>
 
-        {/* Section 13: Lifelong Support */}
-        <div ref={(el) => { sectionRefs.current[13] = el; }} data-section-index={13}>
+        {/* Section 12: Lifelong Support */}
+        <div ref={(el) => { sectionRefs.current[12] = el; }} data-section-index={12}>
           <SupportSection />
         </div>
 
-        {/* Section 14: Photo Gallery */}
-        <div ref={(el) => { sectionRefs.current[14] = el; }} data-section-index={14}>
+        {/* Section 13: Photo Gallery */}
+        <div ref={(el) => { sectionRefs.current[13] = el; }} data-section-index={13}>
           <PhotoGallery />
         </div>
 
-        {/* Section 15: Raksha Bandhan Transition */}
-        <div ref={(el) => { sectionRefs.current[15] = el; }} data-section-index={15}>
+        {/* Section 14: Raksha Bandhan Transition */}
+        <div ref={(el) => { sectionRefs.current[14] = el; }} data-section-index={14}>
           <RakshaBandhanTransition />
         </div>
 
-        {/* Section 16: Rakhi Ceremony */}
-        <div ref={(el) => { sectionRefs.current[16] = el; }} data-section-index={16}>
+        {/* Section 15: Rakhi Ceremony */}
+        <div ref={(el) => { sectionRefs.current[15] = el; }} data-section-index={15}>
           <RakhiCeremony />
         </div>
 
-        {/* Section 17: Gift Reveal */}
-        <div ref={(el) => { sectionRefs.current[17] = el; }} data-section-index={17}>
-          <GiftReveal onOpenPromise={() => handleNavigateToSection(18)} />
+        {/* Section 16: Gift Reveal */}
+        <div ref={(el) => { sectionRefs.current[16] = el; }} data-section-index={16}>
+          <GiftReveal onOpenPromise={() => handleNavigateToSection(17)} />
         </div>
 
-        {/* Section 18: Promise Letter */}
-        <div ref={(el) => { sectionRefs.current[18] = el; }} data-section-index={18}>
+        {/* Section 17: Promise Letter */}
+        <div ref={(el) => { sectionRefs.current[17] = el; }} data-section-index={17}>
           <PromiseLetter />
         </div>
 
-        {/* Section 19: Final Highlight */}
-        <div ref={(el) => { sectionRefs.current[19] = el; }} data-section-index={19}>
+        {/* Section 18: Final Highlight */}
+        <div ref={(el) => { sectionRefs.current[18] = el; }} data-section-index={18}>
           <FinalHighlight onRestart={() => handleNavigateToSection(0)} />
         </div>
       </main>

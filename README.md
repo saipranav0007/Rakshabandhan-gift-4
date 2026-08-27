@@ -11,7 +11,7 @@
 - **The Story Machine & Visualizer**: Interactive 3D flip cards covering School, Friend, Dog, and Random stories.
 - **The Ghost Game Mini-Game**: Playful spooky flashback searching for the friendly spirit.
 - **The 7-Step Fight Machine**: Sibling dispute simulator (*"She starts it. I continue it. Classic Annaya + Rakshasi behaviour 😂"*).
-- **The Roasts**: The Official Pig Roast, the inside Telugu roast (*"Prathi kukka ki oka roju vastundhi..."*), and the Rakshasi Special Care Center diagnosis.
+- **The Roasts**: The Official Pig Roast and the Rakshasi Special Care Center diagnosis.
 - **Small Moments & Food Memory**: Quiet cinematic tribute to the moments of care.
 - **Scrapbook & Photo Gallery**: 6 polaroid photo slots with browser-persistent **IndexedDB** photo upload/customizer.
 - **Interactive Rakhi Ceremony**: Diya lighting, silk Rakhi tying ritual with petal confetti.
